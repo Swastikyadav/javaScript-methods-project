@@ -1,0 +1,21 @@
+header {
+  width: 100%;
+  height: 80px;
+  background: lightcyan;
+}
+img {
+  width: 80px;
+}
+h6 {
+  display: inline-block;
+  position: relative;
+  left: 40px;
+  bottom: 30px;
+  font-size: 30px;
+}
+
+@media all and (max-width: 600px) {
+  h6 {
+    font-size: 15px;
+  }
+}
