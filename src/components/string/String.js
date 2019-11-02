@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { bounceInRight } from "animate.css";
 import "../../Main.css";
-import StringApi from "../../string-method-api/string-method";
+import StringApi from "../../string-methods";
 
 class String extends React.Component {
   state = {

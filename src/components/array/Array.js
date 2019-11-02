@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../../Main.css";
 import { bounceInLeft } from "animate.css";
-import ArrayApi from "../../array-method-api/array-method";
+import ArrayApi from "../../array-methods";
 
 class Array extends React.Component {
   constructor(props) {
