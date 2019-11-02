@@ -5,9 +5,6 @@ import "../../Main.css";
 import StringApi from "../../string-method-api/string-method";
 
 class String extends React.Component {
-  constructor(props) {
-    super(props);
-  }
   state = {
     methods: StringApi
   };
@@ -33,7 +30,7 @@ class String extends React.Component {
     return (
       <>
         <div className="timeline animated bounceInRight fast">
-          {methods.length == 0 ? (
+          {methods.length === 0 ? (
             <div className="container left">
               <div className="content">
                 <h2>Loading...</h2>
@@ -44,7 +41,7 @@ class String extends React.Component {
             methods.map((method, i) => {
               return (
                 <div
-                  className={i % 2 == 0 ? "container left" : "container right"}
+                  className={i % 2 === 0 ? "container left" : "container right"}
                 >
                   <div className="content">
                     <h2>

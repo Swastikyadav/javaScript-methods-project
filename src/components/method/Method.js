@@ -3,10 +3,6 @@ import "./Method.css";
 import Editor from "../editor/Editor";
 
 class Method extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const method = this.props.location.state.method;
     console.log(method);

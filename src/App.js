@@ -10,12 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      {/* <Router> */}
         <Route exact path="/" component={Home} />
         <Route path="/array" component={Array} />
         <Route path="/string" component={String} />
         <Route path="/methods" component={Method} />
-      {/* </Router> */}
     </div>
   );
 }
